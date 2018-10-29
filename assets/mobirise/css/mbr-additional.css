@@ -1701,8 +1701,8 @@ body {
   font-weight: 300;
 }
 .cid-r7LVYnNJ0X {
-  background-image: url("../../../assets/images/hero.png");
   padding: 100px 0;
+  background-image: url("../../../assets/images/hero.png");
 }
 @media (min-width: 992px) {
   .cid-r7LVYnNJ0X {
@@ -1720,6 +1720,13 @@ body {
     width: 100% !important;
   }
 }
+.cid-r7LVYnNJ0X .mbr-arrow {
+  background-color: transparent !important;
+}
+.cid-r7LVYnNJ0X .hero-btn a {
+  font-weight: 700;
+  font-size: 0.75rem;
+}
 .cid-r7LVYnNJ0X H1 {
   color: #ffffff;
   font-weight: 400;
@@ -1733,13 +1740,6 @@ body {
   left: 23px !important;
   top: 8px !important;
   font-size: 18px;
-}
-.cid-r7LVYnNJ0X .mbr-arrow {
-  background-color: transparent !important;
-}
-.cid-r7LVYnNJ0X .hero-btn a {
-  font-weight: 700;
-  font-size: 0.75rem;
 }
 .cid-r7LVYnNJ0X .lora {
   font-family: 'Lora', serif;
