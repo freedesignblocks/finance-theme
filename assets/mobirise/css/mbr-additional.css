@@ -1773,6 +1773,11 @@ body {
   color: #999999;
   line-height: 1.5;
 }
+.cid-r7NLSC6kLm .fa {
+  line-height: 1.2 !important;
+  font-size: 38px !important;
+  color: #528bff !important;
+}
 .cid-r7NLSC6kLm .lora {
   font-family: 'Lora', serif;
 }
@@ -1947,14 +1952,13 @@ body {
   padding-bottom: 90px;
   background-color: #f8f8f8;
 }
-.cid-r7S5icqrlf h2 {
-  line-height: 1.5;
-  font-weight: 400;
+.cid-r7S5icqrlf .wrapper {
+  width: 75%;
 }
-.cid-r7S5icqrlf p {
-  line-height: 1.5;
-  color: #999999;
-  font-weight: 400;
+@media (max-width: 992px) {
+  .cid-r7S5icqrlf .wrapper {
+    width: 100% !important;
+  }
 }
 .cid-r7S5icqrlf .card-box {
   padding: 38px;
@@ -1974,13 +1978,14 @@ body {
 .cid-r7S5icqrlf em {
   font-family: 'Taviraj', serif !important;
 }
-.cid-r7S5icqrlf .wrapper {
-  width: 75%;
+.cid-r7S5icqrlf h2 {
+  line-height: 1.5;
+  font-weight: 400;
 }
-@media (max-width: 992px) {
-  .cid-r7S5icqrlf .wrapper {
-    width: 100% !important;
-  }
+.cid-r7S5icqrlf p {
+  line-height: 1.5;
+  color: #999999;
+  font-weight: 400;
 }
 .cid-r7RwVVdHMV {
   padding: 100px 0;
